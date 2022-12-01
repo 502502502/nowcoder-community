@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nowcoder-utils" />
-        <module name="nowcoder-monitor" />
         <module name="nowcoder-commons" />
-        <module name="nowcoder-search" />
+        <module name="nowcoder-monitor" />
         <module name="nowcoder-xo" />
         <module name="nowcoder-picture" />
+        <module name="nowcoder-search" />
         <module name="nowcoder-sms" />
         <module name="nowcoder-api" />
         <module name="nowcoder-base" />
