@@ -7,27 +7,35 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nowcoder-utils" />
+        <module name="nowcoder-user" />
         <module name="nowcoder-commons" />
-        <module name="nowcoder-monitor" />
-        <module name="nowcoder-xo" />
+        <module name="nowcoder-web" />
         <module name="nowcoder-picture" />
         <module name="nowcoder-search" />
+        <module name="nowcoder-post" />
         <module name="nowcoder-sms" />
-        <module name="nowcoder-api" />
-        <module name="nowcoder-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="nowcoder-api" target="1.8" />
-      <module name="nowcoder-base" target="1.8" />
       <module name="nowcoder-commons" target="1.8" />
       <module name="nowcoder-community" target="1.8" />
       <module name="nowcoder-monitor" target="1.8" />
       <module name="nowcoder-picture" target="1.8" />
+      <module name="nowcoder-post" target="1.8" />
       <module name="nowcoder-search" target="1.8" />
       <module name="nowcoder-sms" target="1.8" />
+      <module name="nowcoder-user" target="1.8" />
       <module name="nowcoder-utils" target="1.8" />
+      <module name="nowcoder-view" target="1.8" />
+      <module name="nowcoder-web" target="1.8" />
       <module name="nowcoder-xo" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nowcoder-post" options="" />
+      <module name="nowcoder-web" options="" />
+    </option>
   </component>
 </project>

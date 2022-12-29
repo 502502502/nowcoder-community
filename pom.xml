@@ -9,15 +9,14 @@
     <name>nowcoder-community</name>
     <description>nowcoder-community web</description>
     <modules>
-        <module>nowcoder-api</module>
-        <module>nowcoder-monitor</module>
-        <module>nowcoder-base</module>
+        <module>nowcoder-post</module>
+        <module>nowcoder-web</module>
+        <module>nowcoder-user</module>
         <module>nowcoder-commons</module>
         <module>nowcoder-picture</module>
         <module>nowcoder-search</module>
         <module>nowcoder-sms</module>
         <module>nowcoder-utils</module>
-        <module>nowcoder-xo</module>
     </modules>
 
     <properties>
@@ -26,7 +25,6 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.3.7.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
-
     </properties>
 
     <dependencyManagement>
